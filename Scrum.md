@@ -1,0 +1,6 @@
+* [Покер планирования](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BA%D0%B5%D1%80_%D0%BF%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
+* [Планирование и оценка в SCRUM](http://itkeys.ru/planning-in-scrum/)
+* [Сеть оценок для планирования в Scrum](http://itkeys.ru/planning-in-scrum/)
+* [Видеокурс про Scrum](https://www.youtube.com/playlist?list=PL4FILHILoAWjeI3slEcfHyYo4ulkfmsDs)
+* [Оценка задач выполняемых по итеративной разработке - слйды](http://www.slideshare.net/ExigenServices/ss-26460568)
+* [Scrum: Почему story point-ы лучше, чем часы](http://agilerussia.ru/practices/scrum-why-story-points-are-better-than-hours/)
