@@ -9,3 +9,8 @@
 
     mysql> ALTER DATABASE databasename CHARACTER SET utf8 COLLATE utf8_unicode_ci;
     mysql> ALTER TABLE tablename CONVERT TO CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+
+Если это не помогает, попробовать изменить collation в mysql-workbench: ПКМ на имени базы
+
+    ALTER SCHEMA `flowerexpert`  DEFAULT COLLATE utf8_bin ;
