@@ -14,6 +14,6 @@
     <role rolename="admin-gui"/>
     <user username="USER" password="PASSWORD" roles="manager-gui, admin-gui"/>
 
-Curl
+Deploy war-файла на сервере через Curl:
 
     curl -T "FlowerExpert.war" "http://USER:PASSWORD@flowerexpert.com.ua/manager/text/deploy?path=/&update=true"
