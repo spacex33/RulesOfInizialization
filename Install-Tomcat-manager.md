@@ -6,9 +6,7 @@
     rm -rf apache-tomcat-7.0.65
     rm tomcat.tar.gz
 
-В файл `conf/tomcat-users.xml`
-
-В `<tomcat-users>` добавить
+В файле `conf/tomcat-users.xml`В `<tomcat-users>` добавить
 
     <role rolename="manager-gui"/>
     <role rolename="admin-gui"/>
