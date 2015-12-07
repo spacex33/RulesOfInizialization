@@ -9,8 +9,8 @@
 В файле `conf/tomcat-users.xml`В `<tomcat-users>` добавить
 
     <role rolename="manager-gui"/>
-    <role rolename="admin-gui"/>
-    <user username="USER" password="PASSWORD" roles="manager-gui, admin-gui"/>
+    <role rolename="manager-script"/>
+    <user username="USER" password="PASSWORD" roles="manager-gui, manager-script"/>
 
 Deploy war-файла на сервере через Curl:
 
