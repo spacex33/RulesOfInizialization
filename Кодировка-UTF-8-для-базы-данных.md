@@ -21,4 +21,8 @@
     mysql -h $OPENSHIFT_DB_HOST -P $OPENSHIFT_DB_PORT -u $OPENSHIFT_DB_USERNAME --password="$OPENSHIFT_DB_PASSWORD"
     SET GLOBAL character_set_server=utf8, collation_server=utf8_general_ci;
     DROP DATABASE $app_name;
-    CREATE DATABASE $app_name DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_unicode_ci;    
+    CREATE DATABASE $app_name DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_unicode_ci;
+
+Еще OpenShift
+    
+    http://stackoverflow.com/questions/33054209/jboss-how-to-get-utf-8-working-request-encoding
