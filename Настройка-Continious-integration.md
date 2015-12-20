@@ -29,3 +29,12 @@ cp -avr apache-tomcat-7.0.65/webapps/manager manager
 rm -rf apache-tomcat-7.0.65
 rm tomcat.tar.gz
 ```
+
+Настроить пользователей Tomcat
+В файле `jbossews/conf/tomcat-users.xml`В `<tomcat-users>` добавить
+
+```
+    <role rolename="manager-gui"/>
+    <role rolename="manager-script"/>
+    <user username="USER" password="PASSWORD" roles="manager-gui, manager-script"/>
+```
