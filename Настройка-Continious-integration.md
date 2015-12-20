@@ -19,3 +19,13 @@
 ```
 rhc set-env JAVA_OPTS_EXT="-DDRIVER_CLASS_NAME=com.mysql.jdbc.Driver -DJDBC_URL=jdbc:mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/flowerexpert?useUnicode=true&characterEncoding=UTF-8 -DJDBC_USER=$OPENSHIFT_MYSQL_DB_USERNAME -DJDBC_PASSWORD=$OPENSHIFT_MYSQL_DB_PASSWORD" -a flowerexpert
 ```
+
+Зайти в `jbossews\webapps`, установить Tomcat Manager:
+
+```
+wget -O tomcat.tar.gz http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.65/bin/apache-tomcat-7.0.65.tar.gz
+tar -xzvf tomcat.tar.gz
+cp -avr apache-tomcat-7.0.65/webapps/manager manager
+rm -rf apache-tomcat-7.0.65
+rm tomcat.tar.gz
+```
