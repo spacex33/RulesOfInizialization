@@ -13,3 +13,7 @@
    JDBC_USER=$OPENSHIFT_MYSQL_DB_USERNAME
    JDBC_PASSWORD=$OPENSHIFT_MYSQL_DB_PASSWORD
 ```
+
+Установить переменные окружения для Tomcat:
+
+rhc set-env JAVA_OPTS_EXT="-DDRIVER_CLASS_NAME=com.mysql.jdbc.Driver -DJDBC_URL=jdbc:mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/flowerexpert?useUnicode=true&characterEncoding=UTF-8 -DJDBC_USER=$OPENSHIFT_MYSQL_DB_USERNAME -DJDBC_PASSWORD=$OPENSHIFT_MYSQL_DB_PASSWORD" -a flowerexpert
