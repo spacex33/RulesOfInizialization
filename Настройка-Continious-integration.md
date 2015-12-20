@@ -40,3 +40,5 @@ rm tomcat.tar.gz
 ```
 
 Перезагрузить OpenShift : нажать в веб-консоли **Restart Application**
+
+На Travis в разделе **Settings** добавить переменную окружения `TEST_DEPLOY_QUERY` `"http://USER:PASSWORD@flowerexpert.com.ua/manager/text/deploy?path=/&update=true"`
