@@ -38,3 +38,5 @@ rm tomcat.tar.gz
     <role rolename="manager-script"/>
     <user username="USER" password="PASSWORD" roles="manager-gui, manager-script"/>
 ```
+
+Перезагрузить OpenShift : нажать в веб-консоли **Restart Application**
