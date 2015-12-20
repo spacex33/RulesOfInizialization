@@ -5,3 +5,11 @@
 5. Настроить ssh ключи `rhc setup`
 6. Зайти через консоль на OpenShift (`Want to log in to your application?` на странице с приложением, копировать команду)
 7. Найти переменные окружения MySQL : `env | grep MYSQL`
+8. Для удобства скопировать настройки OpenShift :
+   
+```
+   DRIVER_CLASS_NAME=com.mysql.jdbc.Driver
+   JDBC_URL=jdbc:mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/flowerexpert?useUnicode=true&characterEncoding=UTF-8
+   JDBC_USER=$OPENSHIFT_MYSQL_DB_USERNAME
+   JDBC_PASSWORD=$OPENSHIFT_MYSQL_DB_PASSWORD
+```
