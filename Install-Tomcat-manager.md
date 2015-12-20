@@ -14,4 +14,4 @@
 
 Deploy war-файла на сервере через Curl:
 
-    curl -T "FlowerExpert.war" "http://USER:PASSWORD@flowerexpert.com.ua/manager/text/deploy?path=/&update=true"
+    curl -T "FlowerExpert.war" "http://USER:PASSWORD@OPENSHIFT_URL/manager/text/deploy?path=/&update=true"
